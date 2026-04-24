@@ -60,7 +60,7 @@ public class TemperatureCalculatorImpl implements TemperatureCalculator {
     }
 
     public double celsiusToFahrenheit(double celsius) {
-        return celsius * (double)9.0F / (double)5.0F + (double)32.0F;
+        return celsius * 9.0 / 5.0F + 32.0F;
     }
 
     public double celsiusToKelvin(double celsius) {
